@@ -14,7 +14,7 @@ get_header();
 <div class="w-container">
 <div class="jer_640">
     <h1 class="jer_header"><?php wp_title(''); ?></h1>
-    <h3 class="jer_blog_sub"><?php the_excerpt(); ?></h3>
+    <h3><?php the_excerpt(); ?></h3>
     <div class="jer_blog_meta">
 		<?php
 			$categories = get_categories( array(
@@ -24,13 +24,13 @@ get_header();
 	 
 			foreach( $categories as $category ) {
 			    $category_link = sprintf( 
-			        '<a href="%1$s" alt="%2$s">%3$s class="jer_category_on_post"></a>',
+			        '<a href="%1$s" alt="%2$s">%3$s ></a>',
 			        esc_url( get_category_link( $category->term_id ) ),
 			        esc_attr( sprintf( __( 'View all posts in %s', 'textdomain' ), $category->name ) ),
 			        esc_html( $category->name )
 			    );
 			     
-			 echo '<p>' . sprintf( esc_html__( 'Category: %s', 'textdomain' ), $category_link ) . '</p> ';
+			 echo '<a class="jer_category_on_post">' . sprintf(__('%s', 'textdomain' ), $category_link ) . '</a> ';
 			    // echo '<p>' . sprintf( esc_html__( 'Description: %s', 'textdomain' ), $category->description ) . '</p>';
 			    // echo '<p>' . sprintf( esc_html__( 'Post Count: %s', 'textdomain' ), $category->count ) . '</p>';
 			}
