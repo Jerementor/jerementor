@@ -8,16 +8,35 @@
  */
 get_header(); 
 ?>
+
+<!--SINGLE.PHP-->
 <div class="section-140">
 <div class="w-container">
- 
+<div class="jer_640">
     <h1 class="jer_header"><?php wp_title(''); ?></h1>
-    <h3 class="jer_sub"><?php the_excerpt(); ?></h3>
+    <h3 class="jer_blog_sub"><?php the_excerpt(); ?></h3>
     <div class="jer_blog_meta">
-        <a class="jer_category_on_post"><?php get_the_category(); ?></a>
+		<?php
+			$categories = get_categories( array(
+			    'orderby' => 'name',
+			    'order'   => 'ASC'
+			) );
+	 
+			foreach( $categories as $category ) {
+			    $category_link = sprintf( 
+			        '<a href="%1$s" alt="%2$s">%3$s class="jer_category_on_post"></a>',
+			        esc_url( get_category_link( $category->term_id ) ),
+			        esc_attr( sprintf( __( 'View all posts in %s', 'textdomain' ), $category->name ) ),
+			        esc_html( $category->name )
+			    );
+			     
+			    // echo '<p>' . sprintf( esc_html__( 'Category: %s', 'textdomain' ), $category_link ) . '</p> ';
+			    // echo '<p>' . sprintf( esc_html__( 'Description: %s', 'textdomain' ), $category->description ) . '</p>';
+			    // echo '<p>' . sprintf( esc_html__( 'Post Count: %s', 'textdomain' ), $category->count ) . '</p>';
+			}
+		?>
     </div>
-    
-	<?php 
+<?php 
 	if ( have_posts() ) {
 		while ( have_posts() ) {
 			the_post(); 
@@ -26,8 +45,9 @@ get_header();
 			//
 		} // end while
 	} // end if
-	?>
+?>
 
+</div>
 </div>
 </div>
 <?php get_footer(); ?>
