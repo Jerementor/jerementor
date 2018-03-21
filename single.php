@@ -14,6 +14,7 @@ get_header();
 <div class="w-container">
 <div class="jer_640">
     <h1 class="jer_header"><?php wp_title(''); ?></h1>
+    <?php the_excerpt(); ?>
     <div class="jer_blog_meta">
 		
 		<?php

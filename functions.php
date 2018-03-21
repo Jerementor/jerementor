@@ -40,7 +40,7 @@ add_action( 'after_setup_theme', 'jerementor_setup' );
 // remove_filter('the_content', 'wpautop');
 add_post_type_support( 'page', 'excerpt' );
 
-add_filter ('get_the_excerpt','wpse240352_filter_excerpt');
+add_filter ('get_the_excerpt','jerementor_filter_excerpt');
 
 function jerementor_filter_excerpt ($post_excerpt) { 
   $post_excerpt = '<p class="jer_blog_sub">' . $post_excerpt . '</p>';
