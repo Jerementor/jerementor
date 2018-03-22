@@ -54,45 +54,6 @@ blockquote {
   line-height: 1.2em;
 }
 
-.jer_submit_form {
-  width: 100%;
-  height: 45px;
-  padding: 7px 16px;
-  float: none;
-  border: 1px solid #c8d0f9;
-  border-radius: 3px;
-  background-color: rgba(87, 117, 235, .03);
-  box-shadow: 1px 0 2px 0 rgba(0, 0, 0, .1);
-  -webkit-transition: background-color 200ms ease;
-  transition: background-color 200ms ease;
-  color: #1717f6;
-  font-weight: 600;
-}
-
-.jer_submit_form:hover {
-  background-color: rgba(87, 117, 235, .08);
-}
-
-.jer_input_field {
-  width: 100%;
-  height: 45px;
-  float: none;
-  clear: none;
-  border: 1px solid #e7e6e5;
-  border-radius: 3px;
-  background-color: #fff;
-  box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, .03);
-}
-
-.form {
-  float: none;
-}
-
-.form-block {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 .section-140 {
   padding: 140px 20px;
 }
@@ -223,79 +184,6 @@ blockquote {
   text-align: center;
 }
 
-.jer_alert_text {
-  display: inline;
-  padding-top: 12px;
-  float: left;
-  color: #000;
-  font-weight: 400;
-}
-
-.text-field {
-  width: 50%;
-  float: right;
-}
-
-.text-field.jer_input_field {
-  margin-bottom: 0px;
-  float: none;
-}
-
-.jer_alert_submit {
-  width: 10%;
-  margin-top: -48px;
-  float: right;
-  clear: right;
-}
-
-.jer_alert_submit.jer_submit_form {
-  margin-top: -46px;
-  margin-right: -107px;
-  float: none;
-  clear: none;
-  border-color: #7c8600;
-  color: #000;
-}
-
-.form-block-2 {
-  margin-bottom: 0px;
-}
-
-.form-2 {
-  display: block;
-}
-
-.jer_input_f {
-  width: 100%;
-  height: 45px;
-  margin-bottom: 10px;
-  float: none;
-  clear: none;
-  border: 1px solid #e7e6e5;
-  border-radius: 3px;
-  background-color: #fff;
-  box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, .03);
-}
-
-.jer_submit_form_2 {
-  width: 100%;
-  height: 45px;
-  padding: 7px 16px;
-  float: none;
-  border: 1px solid #c8d0f9;
-  border-radius: 3px;
-  background-color: rgba(87, 117, 235, .03);
-  box-shadow: 1px 0 2px 0 rgba(0, 0, 0, .1);
-  -webkit-transition: background-color 200ms ease;
-  transition: background-color 200ms ease;
-  color: #1717f6;
-  font-weight: 600;
-}
-
-.jer_submit_form_2:hover {
-  background-color: rgba(87, 117, 235, .08);
-}
-
 .jer_text_field {
   height: 45px;
   border: 1px solid #e7e6e5;
@@ -360,21 +248,6 @@ blockquote {
   .nav-menu {
     background-color: transparent;
   }
-  .jer_alert_text {
-    margin-right: 15px;
-    padding-top: 13px;
-  }
-  .text-field.jer_input_field {
-    width: auto;
-    float: none;
-    clear: none;
-  }
-  .jer_alert_submit.jer_submit_form {
-    width: auto;
-    margin-right: 0px;
-    float: right;
-    clear: none;
-  }
   .jer_alert_par {
     margin-top: 5px;
   }
@@ -392,45 +265,10 @@ blockquote {
   .jer_center_box {
     padding-bottom: 10px;
   }
-  .jer_alert_text {
-    margin-bottom: 10px;
-    float: none;
-  }
-  .text-field.jer_input_field {
-    width: 100%;
-    margin-bottom: 20px;
-    float: none;
-    clear: none;
-  }
-  .jer_alert_submit.jer_submit_form {
-    width: 100%;
-    float: none;
-    clear: right;
-  }
-  .form-2 {
-    padding-right: 10px;
-    padding-left: 10px;
-  }
 }
 
 @media (max-width: 479px) {
   .jer_header {
     font-size: 46px;
-  }
-  .jer_submit_form {
-    width: 100%;
-    float: none;
-  }
-  .jer_input_field {
-    width: 100%;
-    float: none;
-  }
-  .jer_input_f {
-    width: 100%;
-    float: none;
-  }
-  .jer_submit_form_2 {
-    width: 100%;
-    float: none;
   }
 }
