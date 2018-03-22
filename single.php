@@ -16,7 +16,8 @@ get_header();
     <h1 class="jer_header"><?php wp_title(''); ?></h1>
     <?php the_excerpt(); ?>
     <div class="jer_blog_meta">
-		<?php get_template_part('template-parts/get_category'); ?>
+		<!--<!?php get_template_part('template-parts/get_category'); ?>-->
+		<?php the_category(' ', 'multiple')?>		
     </div>
   
 	<?php 
