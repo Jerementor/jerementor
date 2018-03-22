@@ -44,3 +44,4 @@
 <!--<!?php else: ?>-->
 <!--<!?php get_template_part('template-parts/nav/logged_out_nav'); ?>-->
 <!--<!?php endif; ?>    -->
+<?php get_template_part('template-parts/nav/alert_box'); ?>
