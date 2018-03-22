@@ -75,3 +75,10 @@ function jerementor_widgets(){
     
 }
 add_action('widgets_init', 'jerementor_widgets');
+
+add_filter('widget_title','jerementor_widget_title'); 
+function jerementor_widget_title($t)
+{
+
+    return null;
+}

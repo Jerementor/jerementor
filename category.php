@@ -28,13 +28,15 @@ get_header();
         </div>
         
         <div class="w-col w-col-5">
-            <h3>Categories</h3>            
+                   
 	        <?php get_sidebar(); ?>	
         </div>
     </div>
-
+    <!--End Row-->
 
 	</div>
+	<!--End Container-->
 </div>
+<!--End Section-->
 
 <?php get_footer(); ?>
