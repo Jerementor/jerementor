@@ -9,17 +9,29 @@ get_header();
 ?>
 
 <!-- Index.php -->
+<div class="section-140">
+	<div class="w-container">
+    <h1 class="jer_header">All Articles</h1>
+    <p>Every article written so far with new ones constantly being added</p>
+    
+    <div class="w-row">
+        <div class="w-col w-col-7">
+          	<ul class="jer_blog_ul">
+		     <?php if ( have_posts() ) : ?>
+        		<?php while ( have_posts() ) : the_post(); ?>
+           			<?php the_title(sprintf('<a class="jer_link" href="%s" rel="bookmark">', esc_url(get_permalink() )), '</a>'); ?>
 
-    <?php single_post_title(); ?>
-		<?php 
-		if ( have_posts() ) {
-			while ( have_posts() ) {
-				the_post(); 
-				//
-				the_content();
-				//
-			} // end while
-		} // end if
-		?>
+		        <?php endwhile; ?>
+		    <?php endif; ?>    		
+          	</ul>
+        </div>
+        
+        <div class="w-col w-col-5">
+	        <?php get_sidebar(); ?>	
+        </div>
+    </div>
 
+
+	</div>
+</div>
 <?php get_footer();

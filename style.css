@@ -8,3 +8,15 @@ Version: 1.0
 Text Domain: jerementor
 Tags: epic blog
 */
+
+
+li.cat-item > a {
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  color: rgba(23, 23, 246, .6);
+  font-size: 19px;
+}
+
+li.cat-item > a:hover {
+  color: #1717f6;
+}

@@ -46,3 +46,32 @@ function jerementor_filter_excerpt ($post_excerpt) {
   $post_excerpt = '<p class="jer_blog_sub">' . $post_excerpt . '</p>';
   return $post_excerpt;
 }  
+
+function jerementor_widgets(){
+//   register_sidebar(array(
+//      'name'           => __('dashboard-sidebar', 'thegameclass'),
+//      'id'             => 'dashboard-sidebar',
+//      'class'          => 'tgc_sidebar_ul w-list-unstyled',
+//      'container'     => '',
+//      'description'    => __('Add widgets here to appear in the sidebar', 'thegameclass'),
+//      'before_widget'  => '<div class="tgc_sidebar_group">',
+//      'after_widget'   => '</div>',
+//      'before_title'   => '<h3 class="tgc_sidebar_header_light"> ',
+//      'after_title'    => '</h3>',
+//   ));
+  
+    register_sidebar(array(
+     'name'           => __('Categories- Sidebar', 'jerementor'),
+     'id'             => 'article-sidebar',
+     'description'    => __('Add widgets here to appear in the sidebar', 'jerementor'),
+     'before_widget'  => '<div id="%1$s" class="%2$s">',
+     'after_widget'   => '</div>',
+     'before_title'   => '<h3 class="jer_h3"> ',
+     'after_title'    => '</h3>',
+  ));
+  
+  
+  
+    
+}
+add_action('widgets_init', 'jerementor_widgets');
