@@ -12,7 +12,6 @@ get_header();
 <div class="section-140">
 	<div class="w-container">
     <h1 class="jer_header">All Articles</h1>
-    <p>Every article written so far with new ones constantly being added</p>
     
     <div class="w-row">
         <div class="w-col w-col-7">
