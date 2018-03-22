@@ -21,3 +21,18 @@ li.cat-item > a:hover {
   color: #1717f6;
 }
 
+.jer_blog_meta > a{
+  display: inline;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  color: #b4b4b4;
+  font-size: 16px;
+}
+
+.jer_blog_meta > a:hover{
+  direction: ltr;
+  color: #1717f6;
+}
