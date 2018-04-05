@@ -47,6 +47,7 @@ blockquote {
 .jer_header {
   margin-top: 0px;
   margin-bottom: 0.5em;
+  margin-left: 0px;
   padding-bottom: 15px;
   border-bottom: 4px solid #1717f6;
   color: #000;
@@ -56,6 +57,10 @@ blockquote {
 
 .section-140 {
   padding: 140px 20px;
+}
+
+.section-140.jer_grey {
+  background-color: #fafafc;
 }
 
 .jer_nav_link {
@@ -83,9 +88,6 @@ blockquote {
 
 .image {
   display: block;
-  margin-right: auto;
-  margin-bottom: 48px;
-  margin-left: auto;
   border-radius: 50%;
   box-shadow: 0 12px 41px -3px rgba(0, 0, 0, .31);
   -webkit-transition: -webkit-transform 1000ms ease;
@@ -102,7 +104,8 @@ blockquote {
 }
 
 .unordered-list {
-  padding-left: 40px;
+  padding-left: 0px;
+  list-style-type: none;
 }
 
 .jer_link {
@@ -117,6 +120,8 @@ blockquote {
 }
 
 .jer_blog_ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding-left: 0px;
   list-style-type: none;
 }
@@ -154,7 +159,7 @@ blockquote {
 
 .jer_category_on_post:hover {
   direction: ltr;
-  color: #1717f6;
+  color: #383838;
 }
 
 .jer_blog_meta {
@@ -235,6 +240,46 @@ blockquote {
 
 .jer_submit_btn_inverse:hover {
   background-color: hsla(0, 0%, 100%, .83);
+}
+
+.heading {
+  padding-left: 40px;
+}
+
+.jer_min_header {
+  margin-top: 0px;
+  border-bottom: 1px none #1717f6;
+  font-weight: 300;
+}
+
+.section-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.paragraph-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.jer_categories {
+  padding-left: 20px;
+  border-left: 1px solid #ebebeb;
+}
+
+.jer_link_cat {
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  color: rgba(56, 56, 56, .45);
+  font-size: 19px;
+}
+
+.jer_link_cat:hover {
+  color: #383838;
+}
+
+.column {
+  padding-top: 20px;
 }
 
 @media (max-width: 991px) {
