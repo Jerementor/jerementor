@@ -13,12 +13,12 @@ Tags: epic blog
 li.cat-item > a {
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
-  color: rgba(23, 23, 246, .6);
+  color: rgba(56, 56, 56, 0.45);
   font-size: 19px;
 }
 
 li.cat-item > a:hover {
-  color: #1717f6;
+  color: #383838;
 }
 
 .jer_blog_meta > a{
@@ -28,11 +28,11 @@ li.cat-item > a:hover {
   margin-bottom: 10px;
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
-  color: #b4b4b4;
+  color: rgba(56, 56, 56, 0.45);
   font-size: 16px;
 }
 
 .jer_blog_meta > a:hover{
   direction: ltr;
-  color: #1717f6;
+  color: #383838;
 }

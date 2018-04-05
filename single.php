@@ -10,7 +10,7 @@ get_header();
 ?>
 
 <!--SINGLE.PHP-->
-<div class="section-140">
+<div class="section-80">
 <div class="w-container">
 <div class="jer_640">
     <h1 class="jer_header"><?php wp_title(''); ?></h1>
