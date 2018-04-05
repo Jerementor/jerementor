@@ -42,26 +42,19 @@ get_header();
         </div>
     </div>
 </div>
-<div class="section-80">
+<div class="section-80 jer_grey">
   <div class="w-container">
-    <div class="w-row">
-      <div class="w-col w-col-7">
-        <h1 class="jer_header">Running your own e-commerce company.</h1>
-        <p>Follow me through my weekly journey, and learn from my wins, mistakes and adventures along the way so you can avoid falling in the quicksand of online business, and be on your own path to success.</p>
-        <blockquote class="jer_block_quote">“Jeremy has some of the most comprehensive and succinct tutorials out there! His courses helped me gain the confidence I needed to make my own art come to life!”<br><span class="block-quote-author">Sandy Gordon, Pixel Artist</span></blockquote>
-      </div>
-      <div class="w-col w-col-5"><img src="images/jer3.jpg" class="image">
-        <p class="paragraph">Join me, Jeremy Alexander, every Sunday to receive new articles on building your online business.</p>
-        <div class="w-form">
-          <form id="wf-form-jerementor_full_form" name="wf-form-jerementor_full_form" data-name="jerementor_full_form" method="post" action="https://www.getdrip.com/forms/33167202/submissions" drip-embedded-form="33167202"><input type="text" class="jer_text_field w-input" maxlength="256" name="fields[first_name]" data-name="fields[first_name]" placeholder="Enter your first name" id="fields[first_name]-2" required=""><input type="email" class="jer_text_field w-input" maxlength="256" name="fields[email]" data-name="fields[email]" placeholder="Enter your email" id="fields[email]-2" required=""><input type="submit" value="Join Now For Weekly Articles" data-wait="Please wait..." class="jer_submit_btn w-button"></form>
-          <div class="w-form-done">
-            <div>Thank you! Your submission has been received!</div>
-          </div>
-          <div class="w-form-fail">
-            <div>Oops! Something went wrong while submitting the form.</div>
-          </div>
+    <div class="jer_640">
+      <div class="w-form">
+        <form id="wf-form-jerementor_full_form" name="wf-form-jerementor_full_form" data-name="jerementor_full_form" method="post" action="https://www.getdrip.com/forms/33167202/submissions" drip-embedded-form="33167202"><input type="text" class="jer_text_field w-input" maxlength="256" name="fields[first_name]" data-name="Fields First Name" placeholder="Enter your first name" id="fields[first_name]" required=""><input type="email" class="jer_text_field w-input" maxlength="256" name="fields[email]" data-name="Fields Email" placeholder="Enter your email" id="fields[email]" required=""><input type="submit" value="Join Now For Weekly Articles" data-wait="Please wait..." class="jer_submit_btn w-button">
+          <div class="text-block">We remove your e-mail after 8 weeks if there is no activity. Your first name and e-mail are the only personal data we store. You must be 18 or older to sign-up.</div>
+        </form>
+        <div class="w-form-done">
+          <div>Thank you! Your submission has been received!</div>
         </div>
-        <div class="text-block">We remove your e-mail after 8 weeks if there is no activity. Your first name and e-mail are the only personal data we store. You must be 18 or older to sign-up.</div>
+        <div class="w-form-fail">
+          <div>Oops! Something went wrong while submitting the form.</div>
+        </div>
       </div>
     </div>
   </div>
