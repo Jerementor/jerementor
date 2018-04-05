@@ -9,7 +9,7 @@ get_header();
 ?>
 
 <!-- Index.php -->
-<div class="section-140">
+<div class="section-80">
 	<div class="w-container">
       <div class="w-row">
         <div class="w-col w-col-8">
@@ -22,17 +22,17 @@ get_header();
           </div>
           <ul class="jer_blog_ul">
              <?php if ( have_posts() ) : ?>
-                    		<?php while ( have_posts() ) : the_post(); ?>
-                    			<li>
-                       				<?php the_title(sprintf('<a class="jer_link" href="%s" rel="bookmark">', esc_url(get_permalink() )), '</a>'); ?>
-            					</li>
-            		        <?php endwhile; ?>
-            <?php endif; ?> 
+        		<?php while ( have_posts() ) : the_post(); ?>
+        		    <li>
+           			    <?php the_title(sprintf('<a class="jer_link" href="%s" rel="bookmark">', esc_url(get_permalink() )), '</li>'); ?>
+                    </li>
+		        <?php endwhile; ?>
+		    <?php endif; ?>    		
 		    
           </ul>
         </div>
         <div class="w-col w-col-4">
-        <?php get_sidebar(); ?>	            
+            <?php get_sidebar(); ?>	            
           <!--<div class="jer_categories">-->
           <!--  <h3 class="jer_min_header">Categories</h3>-->
           <!--  <ul class="unordered-list">-->
@@ -40,16 +40,8 @@ get_header();
           <!--  </ul>-->
           <!--</div>-->
         </div>
-		    
-          	</ul>
-        </div>
-        
-        <div class="w-col w-col-5">
-	
         </div>
     </div>
-
-
-	</div>
 </div>
+
 <?php get_footer(); ?>
