@@ -48,17 +48,7 @@ function jerementor_filter_excerpt ($post_excerpt) {
 }  
 
 function jerementor_widgets(){
-//   register_sidebar(array(
-//      'name'           => __('dashboard-sidebar', 'thegameclass'),
-//      'id'             => 'dashboard-sidebar',
-//      'class'          => 'tgc_sidebar_ul w-list-unstyled',
-//      'container'     => '',
-//      'description'    => __('Add widgets here to appear in the sidebar', 'thegameclass'),
-//      'before_widget'  => '<div class="tgc_sidebar_group">',
-//      'after_widget'   => '</div>',
-//      'before_title'   => '<h3 class="tgc_sidebar_header_light"> ',
-//      'after_title'    => '</h3>',
-//   ));
+
   
     register_sidebar(array(
      'name'           => __('Categories- Sidebar', 'jerementor'),
