@@ -9,7 +9,7 @@ get_header();
 ?>
 
 <!-- Index.php -->
-<div class="section-80">
+<div class="section-140">
 	<div class="w-container">
       <div class="w-row">
         <div class="w-col w-col-8">

@@ -9,7 +9,7 @@ get_header();
 
 
 <!-- Category.php -->
-<div class="section-80">
+<div class="section-140">
 	<div class="w-container">
     <h1 class="jer_header"><?php single_cat_title(); ?></h1>
     
