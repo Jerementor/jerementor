@@ -32,10 +32,11 @@ get_header();
           </ul>
         </div>
         <div class="w-col w-col-4">
-          <div class="jer_categories">
-            <h3 class="jer_min_header">Categories</h3>
-              <?php get_sidebar(); ?>	            
-          </div>
+        <?php get_sidebar(); ?>	          
+          <!--<div class="jer_categories">-->
+          <!--  <h3 class="jer_min_header">Categories</h3>-->
+                  
+          <!--</div>-->
         </div>
         </div>
     </div>
