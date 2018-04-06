@@ -41,11 +41,15 @@ get_header();
 		                                   </ul>
 		                              <?php endif; ?> 
 		                              <!--<strong><!?php echo $date; ?></strong>-->
-		                              <ul class="jer_blog_ul" start = "<?php echo $nextpost; ?>">
+		                              <ul class="jer_blog_ul" >
 				                          <?php $current_date=$date;
 				                         endif; ?>
-				                         <li><a class="jer_link" href = "<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+				                         
+				                         <li start = "<?php echo $nextpost; ?>">
+				                         	<a class="jer_link" href = "<?php the_permalink(); ?>"><?php the_title(); ?></a>
+				                         </li>
 				                    	<?php endforeach; wp_reset_postdata(); ?>
+				                    	
 		                    		</ul>
 		              </div>
 		          </div>
