@@ -11,6 +11,7 @@ get_header();
 <!-- Index.php -->
 <div class="section-80">
 	<div class="w-container">
+    <h1 class="jer_header"><?php wp_title(''); ?></h1>
     <h1 class="jer_header"><?php single_cat_title(); ?></h1>
     
     <div class="w-row">
