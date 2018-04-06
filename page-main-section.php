@@ -21,43 +21,43 @@ get_header();
     <div class="w-col w-col-7">
 	
     	
-     <!-- <ul class="jer_blog_ul"> -->
-		<!--<!?php if(have_posts()) : ?>-->
-		<!--     <!?php while(have_posts()) : the_post(); ?>-->
-		<!--          <div class="post"> -->
+      <ul class="jer_blog_ul"> 
+		<?php if(have_posts()) : ?>
+		     <?php while(have_posts()) : the_post(); ?>
+		          <div class="post"> 
 		               <!--<li><a href="<!?php the_permalink(); ?>"><!?php the_title(); ?></a></li>-->
-		<!--               <div class="entry">	-->
-		<!--                    <?php the_content(); ?>-->
-		<!--                    <?php-->
-		<!--                    $current_date ="";-->
-		<!--                    $count_posts = wp_count_posts();-->
-		<!--                    $nextpost = 0;-->
-		<!--                    $published_posts = $count_posts->publish;-->
-		<!--                    $myposts = get_posts(array('posts_per_page'=>$published_posts)); -->
-		<!--	               foreach($myposts as $post) :-->
-		<!--                         $nextpost++;-->
-		<!--                         setup_postdata($post);-->
-		<!--                         $date = get_the_date("F Y");   -->
-		<!--                         if($current_date!=$date): -->
-		<!--                              if($nextpost>1): ?> -->
-		                                   <!--</ul>-->
-		<!--                              <?php endif; ?> -->
+		               <div class="entry">	
+		                    <?php the_content(); ?>
+		                    <?php
+		                    $current_date ="";
+		                    $count_posts = wp_count_posts();
+		                    $nextpost = 0;
+		                    $published_posts = $count_posts->publish;
+		                    $myposts = get_posts(array('posts_per_page'=>$published_posts)); 
+			               foreach($myposts as $post) :
+		                         $nextpost++;
+		                         setup_postdata($post);
+		                         $date = get_the_date("F Y");   
+		                         if($current_date!=$date): 
+		                              if($nextpost>1): ?> 
+		                                   </ul>
+		                              <?php endif; ?> 
 		                              <!--<strong><!?php echo $date; ?></strong>-->
-		<!--                              <ul class="jer_blog_ul" start = "<?php echo $nextpost; ?>">-->
-		<!--		                          <?php $current_date=$date;-->
-		<!--		                         endif; ?>-->
+		                              <ul class="jer_blog_ul" start = "<?php echo $nextpost; ?>">
+				                          <?php $current_date=$date;
+				                         endif; ?>
 				                         
-		<!--		                         <li>-->
-		<!--		                         	<a class="jer_link" href = "<?php the_permalink(); ?>"><?php the_title(); ?></a>-->
-		<!--		                         </li>-->
-		<!--		                    	<?php endforeach; wp_reset_postdata(); ?>-->
-		<!--		                       </ul> -->
-		<!--              </div>-->
-		<!--          </div>-->
-		<!--     <!?php endwhile; ?>-->
-		<!--<!?php endif; ?>-->
+				                         <li>
+				                         	<a class="jer_link" href = "<?php the_permalink(); ?>"><?php the_title(); ?></a>
+				                         </li>
+				                    	<?php endforeach; wp_reset_postdata(); ?>
+				                       </ul> 
+		              </div>
+		          </div>
+		     <?php endwhile; ?>
+		<?php endif; ?>
 
-     <!-- </ul> -->
+      </ul> 
     </div>
     <div class="w-col w-col-5">
       <div class="jer_categories">
