@@ -12,7 +12,7 @@ get_header();
 <div class="w-container">
   <h1 class="jer_header">Jeremy Alexander</h1>
   <div class="w-row">
-    <div class="w-col w-col-2"><img src="images/jer3.jpg" width="105" class="image"></div>
+    <div class="w-col w-col-2"><img src="/wp-content/uploads/2018/03/jer3.jpg" width="105" class="image"></div>
     <div class="w-col w-col-10">
       <p class="paragraph-2">Thoughts on e-commerce, courses, ebooks, memberships, SaaS, design and marketing. <a class="jer_link_cat">Looking for my game courses?</a></p>
     </div>
@@ -43,7 +43,7 @@ get_header();
 		                              <strong><?php echo $date; ?></strong><ol start = "<?php echo $nextpost; ?>">
 		                              <?php $current_date=$date;
 		                         endif; ?>
-		                         <li><?php the_title(); ?> &bull; <a href = "<?php the_permalink(); ?>">link</a></li>
+		                         <li><?php the_title(); ?> &bull; <a href = "<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
 		                    <?php endforeach; wp_reset_postdata(); ?>
 		                    </ol>
 		              </div>
@@ -81,9 +81,9 @@ get_header();
 			        esc_html( $category->name )
 			    );
 			     
-			    echo '<p>' . sprintf( esc_html__( 'Category: %s', 'textdomain' ), $category_link ) . '</p> ';
-			    echo '<p>' . sprintf( esc_html__( 'Description: %s', 'textdomain' ), $category->description ) . '</p>';
-			    echo '<p>' . sprintf( esc_html__( 'Post Count: %s', 'textdomain' ), $category->count ) . '</p>';
+			    echo '<p>' . sprintf( esc_html__( '%s', 'textdomain' ), $category_link ) . '</p> ';
+			    // echo '<p>' . sprintf( esc_html__( 'Description: %s', 'textdomain' ), $category->description ) . '</p>';
+			    // echo '<p>' . sprintf( esc_html__( 'Post Count: %s', 'textdomain' ), $category->count ) . '</p>';
 			}  
 			?>
         	
