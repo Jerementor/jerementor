@@ -38,14 +38,14 @@ get_header();
 		                         $date = get_the_date("F Y");   
 		                         if($current_date!=$date): 
 		                              if($nextpost>1): ?> 
-		                                   </ul>
+		                                   </li>
 		                              <?php endif; ?> 
 		                              <!--<strong><!?php echo $date; ?></strong>-->
-		                              <ul class="jer_blog_ul" >
+		                              <ul class="jer_blog_ul" start = "<?php echo $nextpost; ?>">
 				                          <?php $current_date=$date;
 				                         endif; ?>
 				                         
-				                         <li start = "<?php echo $nextpost; ?>">
+				                         <li>
 				                         	<a class="jer_link" href = "<?php the_permalink(); ?>"><?php the_title(); ?></a>
 				                         </li>
 				                    	<?php endforeach; wp_reset_postdata(); ?>
