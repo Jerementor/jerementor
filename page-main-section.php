@@ -44,7 +44,7 @@ get_header();
 		                              <ul start = "<?php echo $nextpost; ?>">
 				                          <?php $current_date=$date;
 				                         endif; ?>
-				                         <li><?php the_title(); ?> &bull; <a href = "<?php the_permalink(); ?>">
+				                         <li><!--<!?php the_title(); ?>--> &bull; <a href = "<?php the_permalink(); ?>">
 				                         	<?php the_title(); ?></a></li>
 				                    	<?php endforeach; wp_reset_postdata(); ?>
 		                    		</ul>
