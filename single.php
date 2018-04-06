@@ -30,7 +30,7 @@ get_header();
 			} // end while
 		} // end if
 	?>
-
+<a href="/" class="jer_link_back">Back to home</a>
 </div>
 </div>
 </div>
