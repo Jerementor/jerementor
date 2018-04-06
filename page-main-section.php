@@ -48,10 +48,8 @@ get_header();
 				                         <li>
 				                         	<a class="jer_link" href = "<?php the_permalink(); ?>"><?php the_title(); ?></a>
 				                         </li>
-				                       </ul> 
 				                    	<?php endforeach; wp_reset_postdata(); ?>
-				                    	
-		                    	
+				                       </ul> 
 		              </div>
 		          </div>
 		     <?php endwhile; ?>
