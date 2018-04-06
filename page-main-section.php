@@ -19,7 +19,7 @@ get_header();
   </div>
   <div class="w-row">
     <div class="w-col w-col-7">
-      <ul class="jer_blog_ul">
+     <!-- <ul class="jer_blog_ul"> -->
 		<?php if(have_posts()) : ?>
 		     <?php while(have_posts()) : the_post(); ?>
 		          <div class="post"> 
@@ -41,7 +41,7 @@ get_header();
 		                                   </ul>
 		                              <?php endif; ?> 
 		                              <!--<strong><!?php echo $date; ?></strong>-->
-		                              <ul start = "<?php echo $nextpost; ?>">
+		                              <ul class="jer_blog_ul" start = "<?php echo $nextpost; ?>">
 				                          <?php $current_date=$date;
 				                         endif; ?>
 				                         <li><a class="jer_link" href = "<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
@@ -51,18 +51,8 @@ get_header();
 		          </div>
 		     <?php endwhile; ?>
 		<?php endif; ?>
-        <!--<li><a href="#" class="jer_link">Quick Thoughts On Hosting Sites</a></li>-->
-        <!--<li><a href="#" class="jer_link">Marketing</a></li>-->
-        <!--<li><a href="#" class="jer_link">SaaS</a></li>-->
-        <!--<li><a href="#" class="jer_link">Software</a></li>-->
-        <!--<li><a href="#" class="jer_link">Life</a></li>-->
-        <!--<li><a href="#" class="jer_link">WordPress</a></li>-->
-        <!--<li><a href="#" class="jer_link">Challenges</a></li>-->
-        <!--<li><a href="#" class="jer_link">Online Business</a></li>-->
-        <!--<li><a href="#" class="jer_link">Courses</a></li>-->
-        <!--<li><a href="#" class="jer_link">Learning</a></li>-->
-        <!--<li><a href="#" class="jer_link">Audience Building</a></li>-->
-      </ul>
+
+     <!-- </ul> -->
     </div>
     <div class="w-col w-col-5">
       <div class="jer_categories">
