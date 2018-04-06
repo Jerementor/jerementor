@@ -45,4 +45,4 @@
 <!--<!?php get_template_part('template-parts/nav/logged_out_nav'); ?>-->
 <!--<!?php endif; ?>    -->
 <!--<!?php get_template_part('template-parts/nav/alert_box'); ?>-->
-<?php get_template_part('template-parts/nav/logged_out_nav'); ?>
+<!--<!?php get_template_part('template-parts/nav/logged_out_nav'); ?>-->

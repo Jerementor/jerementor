@@ -23,7 +23,7 @@ get_header();
 		<?php if(have_posts()) : ?>
 		     <?php while(have_posts()) : the_post(); ?>
 		          <div class="post"> 
-		               <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+		               <!--<li><a href="<!?php the_permalink(); ?>"><!?php the_title(); ?></a></li>-->
 		               <div class="entry">	
 		                    <?php the_content(); ?>
 		                    <?php
@@ -40,7 +40,7 @@ get_header();
 		                              if($nextpost>1): ?> 
 		                                   </ol>
 		                              <?php endif; ?> 
-		                              <strong><?php echo $date; ?></strong><ol start = "<?php echo $nextpost; ?>">
+		                              <!--<strong><!?php echo $date; ?></strong>--><ul start = "<?php echo $nextpost; ?>">
 		                              <?php $current_date=$date;
 		                         endif; ?>
 		                         <li><?php the_title(); ?> &bull; <a href = "<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
