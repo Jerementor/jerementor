@@ -20,6 +20,7 @@ get_header();
               <p class="paragraph-2">Thoughts on e-commerce, specifically courses, ebooks, memberships, SaaS, design and marketing.</p>
             </div>
           </div>
+          <h3 class="jer_min_header">All articles</h3>          
           <ul class="jer_blog_ul">
              <?php if ( have_posts() ) : ?>
         		<?php while ( have_posts() ) : the_post(); ?>
@@ -33,7 +34,7 @@ get_header();
         </div>
         <div class="w-col w-col-4">
           <div class="jer_categories">
-            
+            <h3 class="jer_min_header">Categories</h3>
         <?php get_sidebar(); ?>	          
           </div>
           <!--<div class="jer_categories">-->

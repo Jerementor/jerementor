@@ -59,10 +59,6 @@ function jerementor_widgets(){
      'before_title'   => '<h3 class="jer_h3"> ',
      'after_title'    => '</h3>',
   ));
-  
-  
-  
-    
 }
 add_action('widgets_init', 'jerementor_widgets');
 
