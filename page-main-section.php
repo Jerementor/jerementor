@@ -19,7 +19,19 @@ get_header();
   </div>
   <div class="w-row">
     <div class="w-col w-col-7">
-	
+		<?php 
+		if ( have_posts() ) {
+			while ( have_posts() ) {
+				the_post(); 
+				//
+				the_content();
+				
+				the_permalink();
+				
+				the_title();
+			} // end while
+		} // end if
+		?>	
     	
       <ul class="jer_blog_ul"> 
 		<?php if(have_posts()) : ?>
