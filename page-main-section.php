@@ -8,7 +8,7 @@
 get_header(); 
 ?>
 <!-- Main Section -->
-<div class="section-80">
+<div class="section-140">
 <div class="w-container">
   <h1 class="jer_header">Jeremy Alexander</h1>
   <div class="w-row">
@@ -38,14 +38,16 @@ get_header();
 		                         $date = get_the_date("F Y");   
 		                         if($current_date!=$date): 
 		                              if($nextpost>1): ?> 
-		                                   </ol>
+		                                   </ul>
 		                              <?php endif; ?> 
-		                              <!--<strong><!?php echo $date; ?></strong>--><ul start = "<?php echo $nextpost; ?>">
-		                              <?php $current_date=$date;
-		                         endif; ?>
-		                         <li><?php the_title(); ?> &bull; <a href = "<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-		                    <?php endforeach; wp_reset_postdata(); ?>
-		                    </ol>
+		                              <!--<strong><!?php echo $date; ?></strong>-->
+		                              <ul start = "<?php echo $nextpost; ?>">
+				                          <?php $current_date=$date;
+				                         endif; ?>
+				                         <li><?php the_title(); ?> &bull; <a href = "<?php the_permalink(); ?>">
+				                         	<?php the_title(); ?></a></li>
+				                    	<?php endforeach; wp_reset_postdata(); ?>
+		                    		</ul>
 		              </div>
 		          </div>
 		     <?php endwhile; ?>
