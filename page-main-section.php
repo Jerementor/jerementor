@@ -82,7 +82,7 @@ get_header();
 			        esc_html( $category->name )
 			    );
 			     
-			    echo '<p>' . sprintf( esc_html__( '%s', 'textdomain' ), $category_link ) . '</p> ';
+			    echo sprintf( esc_html__( '%s', 'textdomain' ), $category_link );
 			    // echo '<p>' . sprintf( esc_html__( 'Description: %s', 'textdomain' ), $category->description ) . '</p>';
 			    // echo '<p>' . sprintf( esc_html__( 'Post Count: %s', 'textdomain' ), $category->count ) . '</p>';
 			}  
