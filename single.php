@@ -13,8 +13,12 @@ get_header();
 <h1 class="jer_home_header"><?php wp_title(''); ?></h1>
 
 <div class="jer_meta_data">
+	
+	<div class="jer_meta_categories">
+		<?php the_category(' ', 'multiple')?>
+	</div>	
 	<?php the_excerpt(); ?>
-	<?php the_category(' ', 'multiple')?>		
+
 </div>
 <div class="jer_blog">
 <?php 

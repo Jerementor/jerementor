@@ -199,7 +199,7 @@ blockquote {
 }
 
 .jer_blog {
-  /*margin-top: 40px;*/
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
@@ -228,6 +228,10 @@ blockquote {
 
 .jer_button:hover {
   background-color: rgba(87, 117, 235, .08);
+}
+
+.jer_post_sub {
+  margin-bottom: 0px;
 }
 
 .discord_avatar {
