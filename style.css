@@ -9,6 +9,14 @@ Text Domain: jerementor
 Tags: epic blog
 */
 
+a.jer_brand_link {
+    display: block;
+    color: #1717f6;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    text-decoration: none;
+}
 
 li.cat-item > a {
   -webkit-transition: color 200ms ease;
@@ -26,7 +34,7 @@ li.cat-item > a:hover {
   display: inline;
   margin-top: 10px;
   margin-right: 10px;
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
   color: rgba(56, 56, 56, 0.45);
