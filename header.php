@@ -38,8 +38,11 @@
 </head>
 
 <body>
-    
-<!--<!?php if (is_user_logged_in() ) : ?>-->
+<div class="section-20 section-light">
+<div class="w-container">
+<div class="jer_640">
+<?php get_template_part('template-parts/nav/logged_out_nav'); ?>
+<!-- <!?php if (is_user_logged_in() ) : ?> -->
 <!--<!?php get_template_part('template-parts/nav/logged_in_nav'); ?>-->
 <!--<!?php else: ?>-->
 <!--<!?php get_template_part('template-parts/nav/logged_out_nav'); ?>-->
