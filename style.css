@@ -30,7 +30,7 @@ li.cat-item > a:hover {
   color: #383838;
 }
 
-.jer_meta_data > a{
+.jer_meta_categories > a{
   display: inline;
   margin-top: 10px;
   margin-right: 10px;
@@ -41,7 +41,7 @@ li.cat-item > a:hover {
   font-size: 16px;
 }
 
-.jer_meta_data > a:hover{
+.jer_meta_categories > a:hover{
   direction: ltr;
   color: #383838;
 }
