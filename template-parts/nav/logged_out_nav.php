@@ -1,3 +1,4 @@
+<div class="jer_nav">
 <div data-collapse="medium" data-animation="default" data-duration="400" class="w-nav">
 <div class="container w-container">
   <a href="#" class="w-nav-brand">
@@ -10,4 +11,6 @@
     <div class="w-icon-nav-menu"></div>
   </div>
 </div>
+</div>
+
 </div>

@@ -341,8 +341,8 @@ blockquote {
   text-decoration: none;
 }
 
-.container {
-  background-color: #fff;
+.navbar {
+  background-color: transparent;
 }
 
 @media (max-width: 991px) {
