@@ -342,7 +342,11 @@ blockquote {
 }
 
 .navbar {
-  background-color: transparent;
+  background-color: #fff;
+}
+
+.navbar-2 {
+  background-color: #fff;
 }
 
 @media (max-width: 991px) {
