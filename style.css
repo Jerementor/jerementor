@@ -38,7 +38,7 @@ li.cat-item > a:hover {
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
   color: rgba(56, 56, 56, 0.45);
-  font-size: 16px;
+
 }
 
 .jer_meta_categories > a:hover{
