@@ -272,11 +272,6 @@ blockquote {
   font-weight: 600;
 }
 
-.game_logo {
-  color: #1717f6;
-  font-weight: 400;
-}
-
 .jer_screencast_header {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -287,18 +282,6 @@ blockquote {
   line-height: 1em;
   font-weight: 400;
   text-align: left;
-}
-
-.jer_screencast_sales_header {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #0071a7;
-  color: #222;
-  font-size: 1.999em;
-  line-height: 1em;
-  font-weight: 400;
-  text-align: center;
 }
 
 .jer_buy_now {
@@ -345,8 +328,15 @@ blockquote {
   background-color: #fff;
 }
 
-.navbar-2 {
-  background-color: #fff;
+.jer_navbar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+.jer_brand {
+  color: #1717f6;
+  font-size: 22px;
 }
 
 @media (max-width: 991px) {
@@ -357,6 +347,13 @@ blockquote {
   }
   .jer_640 {
     width: auto;
+  }
+  .jer_nav_link {
+    background-color: #000;
+    color: #fff;
+  }
+  .menu-button {
+    background-color: transparent;
   }
 }
 
@@ -373,9 +370,6 @@ blockquote {
     margin-top: 0px;
   }
   .jer_screencast_header {
-    margin-bottom: 20px;
-  }
-  .jer_screencast_sales_header {
     margin-bottom: 20px;
   }
   .image-3 {
@@ -417,10 +411,6 @@ blockquote {
     display: inline-block;
   }
   .jer_screencast_header {
-    margin-bottom: 20px;
-    font-size: 1.444em;
-  }
-  .jer_screencast_sales_header {
     margin-bottom: 20px;
     font-size: 1.444em;
   }
