@@ -9,9 +9,9 @@ get_header();
 
 
 <!-- Category.php -->
-<div class="section-80">
+<div class="section-20">
 	<div class="w-container">
-    <h1 class="jer_header"><?php single_cat_title(); ?></h1>
+    <h1 class="jer_page_header"><?php single_cat_title(); ?></h1>
     
     <div class="w-row">
         <div class="w-col w-col-7">
@@ -28,7 +28,6 @@ get_header();
         </div>
         
         <div class="w-col w-col-5">
-                   
 	        <?php get_sidebar(); ?>	
         </div>
     </div>
