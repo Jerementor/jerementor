@@ -327,6 +327,15 @@ blockquote {
   text-align: left;
 }
 
+.jer_brand_link {
+  display: block;
+  color: #1717f6;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
 @media (max-width: 991px) {
   .section-20.section-light {
     display: block;
