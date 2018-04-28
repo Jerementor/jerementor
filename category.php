@@ -11,7 +11,7 @@ get_header();
 <!-- Category.php -->
 <h1 class="jer_page_header"><?php single_cat_title(); ?></h1>
 <div class="w-row">
-    <div class="w-col w-col-7">
+    <div class="w-col w-col-8">
       	<ul class="jer_blog_ul">
 	     <?php if ( have_posts() ) : ?>
     		<?php while ( have_posts() ) : the_post(); ?>
@@ -24,7 +24,7 @@ get_header();
 
     </div>
     
-    <div class="w-col w-col-5">
+    <div class="w-col w-col-4">
         <?php get_sidebar(); ?>	
     </div>
 </div>
