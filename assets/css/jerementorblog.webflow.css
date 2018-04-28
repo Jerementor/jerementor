@@ -1,22 +1,49 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: #555;
-  font-size: 20px;
+  font-size: 1.25em;
   line-height: 150%;
+  font-weight: 300;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 0.5em;
+  color: #222;
+  font-size: 1.602em;
+  line-height: 44px;
   font-weight: 300;
 }
 
 h2 {
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 0.5em;
   color: #222;
-  font-size: 32px;
+  font-size: 1.424em;
   line-height: 36px;
-  font-weight: 400;
+  font-weight: 300;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 0.5em;
+  color: #222;
+  font-size: 1.266em;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 0.5em;
+  color: #222;
+  font-size: 1.1125em;
+  line-height: 24px;
+  font-weight: 300;
 }
 
 p {
-  margin-bottom: 32px;
+  margin-bottom: 1.3em;
   line-height: 1.6em;
 }
 
@@ -114,10 +141,11 @@ blockquote {
   padding-bottom: 10px;
   border-bottom: 2px none #1717f6;
   color: #222;
-  font-size: 1.5em;
-  line-height: 1.1em;
-  font-weight: 400;
+  font-size: 1.602em;
+  line-height: 1.2em;
+  font-weight: 300;
   text-align: left;
+  letter-spacing: -1.4px;
 }
 
 .image {
@@ -314,7 +342,7 @@ blockquote {
   color: #222;
   font-size: 1.5em;
   line-height: 1.1em;
-  font-weight: 400;
+  font-weight: 300;
   text-align: left;
 }
 
@@ -339,8 +367,10 @@ blockquote {
 }
 
 .jer_brand {
+  margin-top: 15px;
   color: #1717f6;
   font-size: 22px;
+  font-weight: 300;
 }
 
 @media (max-width: 991px) {
